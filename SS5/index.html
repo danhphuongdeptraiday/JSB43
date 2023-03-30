@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+
+      .container {
+        width: 600px;
+        height: 500px;
+        background-color: antiquewhite;
+        position: relative;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box1 {
+        background-color: brown;
+        position: absolute;
+        left: 20px;
+        z-index: 10;
+      }
+
+      .box2 {
+        background-color: purple;
+        position: absolute;
+        left: 40px;
+        top: 20px;
+        z-index: 2;
+      }
+
+      .box3 {
+        background-color: green;
+        position: fixed;
+        left: 60px;
+        top: 0;
+        z-index: 2;
+      }
+
+      body {
+        height: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NGuyễn Danh Phương</h1>
+    <ul>
+      <li>Relative</li>
+      <li>Absolute</li>
+      <li>Fixed</li>
+    </ul>
+
+    <div class="container">
+      <h2>ABCDEF</h2>
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+    </div>
+  </body>
+</html>
