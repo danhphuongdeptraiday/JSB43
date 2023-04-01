@@ -42,18 +42,42 @@ let listFavors = ["Movie", "Music", "Basketball"];
 // console.log(listFavors);
 // console.log(listFavors[3]);
 
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-
 let t = 0;
 t = t + 1;
 t += 1;
 t++;
 // console.log(t);
 
-for (let i = 10; i > 0; i--) {
-  console.log(i);
+// let c = "";
+// c = c + 1;
+// c = c + 2;
+// c = c + 3;
+// c = c + 4;
+// console.log(c);
+
+// for (let i = 1; i <= 10; i++) {
+//   c = c + i + " ";
+// }
+
+// console.log(c);
+
+// let a = Number(prompt("Enter số thứ 1 ? "));
+// let b = Number(prompt("Enter số thứ 2 ? "));
+
+// let g = 0;
+// // g = g + 1; // g = 1;
+// // g = g + 2; // g = 2;
+// // g = g + 3; //
+// for (let i = a; i <= b; i++) {
+//   g = g + i;
+//   console.log("Tại vòng thứ " + i + " thì g = " + g);
+// }
+// console.log(g);
+
+let n = Number(prompt("Nhập số bạn tính giai thừa: "));
+let k = 1;
+for (let i = 1; i <= n; i++) {
+  k = k * i;
 }
+
+console.log(k);
